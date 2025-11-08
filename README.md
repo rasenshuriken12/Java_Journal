@@ -25,6 +25,9 @@
 
 • Using HTML user can create web pages which can be viewed in any web browser.
 
+<details>
+  <summary>Click to expand 🔻</summary>
+
 ➢ Extension :  `.html`  OR  `.htm`
 
 ➢ Syntax of Html : 
@@ -245,6 +248,8 @@ For scrolling the text on horizontal line :
 > - Height
 > - Width
 > - Bgcolor
+
+</details> 
 
  ![status](https://img.shields.io/badge/status-upcoming-yellow)
 
