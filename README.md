@@ -28,7 +28,7 @@
 - Synchronization - Since threads share memory, two threads might try to modify the same variable at the same time, causing race conditions. Synchronization prevents this by allowing only one thread at a time to access a shared resource.
 - Locking - Every object in Java has an internal lock. When a thread enters a synchronized block, it acquires the lock. Other threads must wait until it’s released.
 - Deadlock - Occurs when two threads hold locks that each other needs — so neither proceeds.
-- 
+- Race Conditions - When two or more threads access shared data without synchronization, results become unpredictable.
 
 ---
 
