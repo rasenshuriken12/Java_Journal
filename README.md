@@ -25,6 +25,7 @@
 
 - Process -	A running instance of a program. Has its own memory space, files, and resources.
 - Thread - A smaller unit of execution within a process. Shares the same memory and resources with other threads of that process.
+- Synchronization : Since threads share memory, two threads might try to modify the same variable at the same time, causing race conditions. Synchronization prevents this by allowing only one thread at a time to access a shared resource.
 ---
 
 # HTML
