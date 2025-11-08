@@ -25,7 +25,11 @@
 
 - Process -	A running instance of a program. Has its own memory space, files, and resources.
 - Thread - A smaller unit of execution within a process. Shares the same memory and resources with other threads of that process.
-- Synchronization : Since threads share memory, two threads might try to modify the same variable at the same time, causing race conditions. Synchronization prevents this by allowing only one thread at a time to access a shared resource.
+- Synchronization - Since threads share memory, two threads might try to modify the same variable at the same time, causing race conditions. Synchronization prevents this by allowing only one thread at a time to access a shared resource.
+- Locking - Every object in Java has an internal lock. When a thread enters a synchronized block, it acquires the lock. Other threads must wait until it’s released.
+- Deadlock - Occurs when two threads hold locks that each other needs — so neither proceeds.
+- 
+
 ---
 
 # HTML
