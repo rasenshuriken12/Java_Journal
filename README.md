@@ -26,6 +26,8 @@
 - Robust and secure with exception handling
 - Multi-threading support built-in
 
+![Java](https://img.shields.io/badge/☕_1._-Print_a_Statement-E34F26?style=for-the-badge&logo=java&logoColor=white)
+
 ```java
 // HelloWorld.java
 public class HelloWorld {
@@ -35,7 +37,9 @@ public class HelloWorld {
 }
 ```
 
-Run the Java code
+![Java](https://img.shields.io/badge/☕-Running_the_Java_code-E34F26?style=for-the-badge&logo=java&logoColor=white)
+
+
 - Write the above code in a code editor like VS Code / Intellij, Save it as `HelloWorld.java`
 - Java Compiler `javac` compiles it into bytecode `HelloWorld.class`.
 - JVM (Java Virtual Machine) reads the .class file and interprets the bytecode.
