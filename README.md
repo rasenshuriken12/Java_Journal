@@ -84,6 +84,10 @@ Salary: $50000.5
 Grade: A
 Is Java Fun? true
 ```
+
+> - Primitive types: `int`, `double`, `char`, `boolean` - store actual values
+> - Reference types: `String` - store reference to objects
+> - `+` operator concatenates strings with other data types
 </details>
 
 ![Java](https://img.shields.io/badge/☕_2._-Running_the_Java_code-E34F26?style=for-the-badge&logo=java&logoColor=white)
