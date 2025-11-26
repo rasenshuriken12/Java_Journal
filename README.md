@@ -54,6 +54,36 @@ Hello, Java World!
 > - Java is case-sensitive: System ≠ system
 > - curly braces {} are used to define blocks (scope) of code
 
+*Code:*
+```java
+public class VariablesDemo {
+    public static void main(String[] args) {
+        // Primitive data types
+        int age = 25;
+        double salary = 50000.50;
+        char grade = 'A';
+        boolean isJavaFun = true;
+        
+        // Reference data type
+        String name = "John Doe";
+        
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Salary: $" + salary);
+        System.out.println("Grade: " + grade);
+        System.out.println("Is Java Fun? " + isJavaFun);
+    }
+}
+```
+
+*Output:*
+```
+Name: John Doe
+Age: 25
+Salary: $50000.5
+Grade: A
+Is Java Fun? true
+```
 </details>
 
 ![Java](https://img.shields.io/badge/☕_2._-Running_the_Java_code-E34F26?style=for-the-badge&logo=java&logoColor=white)
