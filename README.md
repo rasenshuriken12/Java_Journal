@@ -71,6 +71,18 @@ Hello, Java World!
 | Compiled to bytecode | **Java**, C# | Run on a virtual machine (JVM/CLR) | 
 | Interpreted | Python, JavaScript | Executed line-by-line by an interpreter | 
 
+![Java](https://img.shields.io/badge/☕_3._-Comments-E34F26?style=for-the-badge&logo=java&logoColor=white)
+
+*Code:*
+```java
+// This is a comment
+
+/*
+This is a multi-line comment.
+This is useful for explaining larger sections of code.
+*/
+```
+
 </td></tr>
 </table>
     
