@@ -45,7 +45,7 @@ Run the Java code
 | Type | Example Languages | How It Runs | 
 |--|--|--|
 | Compiled to machine code | C, C++, Rust | Directly executed by CPU | 
-| Compiled to bytecode | Java, C# | Run on a virtual machine (JVM/CLR) | 
+| Compiled to bytecode | **Java**, C# | Run on a virtual machine (JVM/CLR) | 
 | Interpreted | Python, JavaScript | Executed line-by-line by an interpreter | 
 
 
