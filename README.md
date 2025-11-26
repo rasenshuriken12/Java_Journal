@@ -30,10 +30,10 @@
 
 *Code:*
 ```java
-// HelloWorld.java
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, Java World!");
+// HelloWorld.java                                   
+public class HelloWorld {                          // Defines a class HelloWorld
+    public static void main(String[] args) {       // Main method
+        System.out.println("Hello, Java World!");  // Function prints Output.
     }
 }
 ```
