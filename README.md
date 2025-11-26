@@ -16,7 +16,10 @@
 |---|
 
 ---
-# Java
+# Java Basics
+
+<table>
+<tr><td>
 
 ⊡⁠ Java is a high-level, object-oriented, platform-independent programming language.
 
@@ -28,6 +31,9 @@
 
 ![Java](https://img.shields.io/badge/☕_1._-Print_a_Statement-E34F26?style=for-the-badge&logo=java&logoColor=white)
 
+<details>
+  <summary>Click to expand 🔻</summary>
+    
 *Code:*
 ```java
 // HelloWorld.java                                   
@@ -42,6 +48,8 @@ public class HelloWorld {                          // Defines a class HelloWorld
 ```
 Hello, Java World!
 ```
+
+</details>
 
 ![Java](https://img.shields.io/badge/☕_2._-Running_the_Java_code-E34F26?style=for-the-badge&logo=java&logoColor=white)
 
@@ -58,7 +66,9 @@ Hello, Java World!
 | Compiled to bytecode | **Java**, C# | Run on a virtual machine (JVM/CLR) | 
 | Interpreted | Python, JavaScript | Executed line-by-line by an interpreter | 
 
-
+</td></tr>
+</table>
+    
 ## Multithreading
 
 - Multithreading is a programming concept where a single program (process) runs multiple threads concurrently(not necessarily simultaneously).
