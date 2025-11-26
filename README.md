@@ -18,7 +18,15 @@
 ---
 # Java
 
-Java is a high-level, object-oriented programming language
+⊡⁠ Java is a high-level, object-oriented, platform-independent programming language.
+
+⊡⁠ Key Features:
+- Write Once, Run Anywhere (WORA) thanks to JVM
+- Strongly typed language with automatic memory management
+- Robust and secure with exception handling
+- Multi-threading support built-in
+
+
 
 ```java
 // HelloWorld.java
