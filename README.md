@@ -84,6 +84,12 @@ Salary: $50000.5
 Grade: A
 Is Java Fun? true
 ```
+- Java 25 Enhancement: You can use var for local variable type inference:
+```java
+var age = 25;            // inferred as int
+var name = "John Doe";   // inferred as String
+var salary = 50000.50;   // inferred as double
+```
 
 > - Primitive types: `int`, `double`, `char`, `boolean` - store actual values
 > - Reference types: `String` - store reference to objects
