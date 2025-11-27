@@ -54,46 +54,6 @@ Hello, Java World!
 > - Java is case-sensitive: System ≠ system
 > - curly braces {} are used to define blocks (scope) of code
 
-*Code:*
-```java
-public class VariablesDemo {
-    public static void main(String[] args) {
-        // Primitive data types
-        int age = 25;
-        double salary = 50000.50;
-        char grade = 'A';
-        boolean isJavaFun = true;
-        
-        // Reference data type
-        String name = "John Doe";
-        
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("Salary: $" + salary);
-        System.out.println("Grade: " + grade);
-        System.out.println("Is Java Fun? " + isJavaFun);
-    }
-}
-```
-
-*Output:*
-```
-Name: John Doe
-Age: 25
-Salary: $50000.5
-Grade: A
-Is Java Fun? true
-```
-- Java 25 Enhancement: You can use var for local variable type inference:
-```java
-var age = 25;            // inferred as int
-var name = "John Doe";   // inferred as String
-var salary = 50000.50;   // inferred as double
-```
-
-> - Primitive types: `int`, `double`, `char`, `boolean` - store actual values
-> - Reference types: `String` - store reference to objects
-> - `+` operator concatenates strings with other data types
 </details>
 
 ![Java](https://img.shields.io/badge/☕_2._-Running_the_Java_code-E34F26?style=for-the-badge&logo=java&logoColor=white)
@@ -126,16 +86,16 @@ import java.util.Scanner;
 
 public class UserInput {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         
         System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
+        String name = s.nextLine();
         
         System.out.print("Enter your age: ");
-        int age = scanner.nextInt();
+        int age = s.nextInt();
         
         System.out.print("Enter your salary: ");
-        double salary = scanner.nextDouble();
+        double salary = s.nextDouble();
         
         System.out.println("\n--- User Information ---");
         System.out.println("Name: " + name);
@@ -190,6 +150,49 @@ This is useful for explaining larger sections of code.
 
 </td></tr>
 </table>
+
+![Java](https://img.shields.io/badge/☕_4._-Data_Types-E34F26?style=for-the-badge&logo=java&logoColor=white)
+
+*Code:*
+```java
+public class VariablesDemo {
+    public static void main(String[] args) {
+        // Primitive data types
+        int age = 25;
+        double salary = 50000.50;
+        char grade = 'A';
+        boolean isJavaFun = true;
+        
+        // Reference data type
+        String name = "Kakashi Hatake";
+        
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Salary: $" + salary);
+        System.out.println("Grade: " + grade);
+        System.out.println("Is Java Fun? " + isJavaFun);
+    }
+}
+```
+
+*Output:*
+```
+Name: John Doe
+Age: 25
+Salary: $50000.5
+Grade: A
+Is Java Fun? true
+```
+- Java 25 Enhancement: You can use var for local variable type inference:
+```java
+var age = 25;            // inferred as int
+var name = "John Doe";   // inferred as String
+var salary = 50000.50;   // inferred as double
+```
+
+> - Primitive types: `int`, `double`, `char`, `boolean` - store actual values
+> - Reference types: `String` - store reference to objects
+> - `+` operator concatenates strings with other data types
     
 ## Multithreading
 
