@@ -109,13 +109,13 @@ public class UserInput {
 
 *Output:*
 ```
-Enter your name: Alice
-Enter your age: 30
+Enter your name: Naruto
+Enter your age: 28
 Enter your salary: 75000.50
 
 --- User Information ---
-Name: Alice
-Age: 30
+Name: Naruto
+Age: 28
 Salary: $75000.5
 ```
 
@@ -154,7 +154,7 @@ This is useful for explaining larger sections of code.
 public class VariablesDemo {
     public static void main(String[] args) {
         // Primitive data types
-        int age = 25;
+        int age = 31;
         double salary = 50000.50;
         char grade = 'A';
         boolean isJavaFun = true;
@@ -173,8 +173,8 @@ public class VariablesDemo {
 
 *Output:*
 ```
-Name: John Doe
-Age: 25
+Name: Kakashi Hatake
+Age: 31
 Salary: $50000.5
 Grade: A
 Is Java Fun? true
